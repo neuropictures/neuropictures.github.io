@@ -1,0 +1,15 @@
+body {
+	background: black;
+	font-family: arial;
+	font-size: 50%;
+}
+
+img {
+	width: 15%;
+	height: auto;
+}
+
+p {
+	color: #dccbd5;
+	padding: 0px 30px;
+}
