@@ -13,3 +13,13 @@ p {
 	color: #dccbd5;
 	padding: 0px 30px;
 }
+
+#projects {
+	width: 52%;
+	height: auto;
+}
+
+#about {
+	width: 54%;
+	height: auto;
+}
