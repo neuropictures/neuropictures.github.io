@@ -27,6 +27,14 @@ p {
 	padding: 0px 30px;
 }
 
+#email {
+	z-index: 99;
+}
+
+#mainlogo {
+	z-index: 99;
+}
+
 #projects {
 	width: 52%;
 	height: auto;
