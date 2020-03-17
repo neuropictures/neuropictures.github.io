@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Neuro Pictures</title>
-		<link rel="shortcut icon" type="image/png" href="https://imgur.com/a/LgelKFy"/>
+		<link rel="shortcut icon" type="image/png" href="img/neuro favicon.png"/>
 		<link rel="stylesheet" type="text/css" href="main.css"> 
 		<audio autoplay>
       			<source src="neuroleptik.ogg">
@@ -10,11 +10,22 @@
 		<audio autoplay loop>
       			<source src="Flashback.wav">
   		</audio>
-	</head>
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script>
+      $(document).ready(function () {
+          // Show the div after 5s
+          $("#loader").delay(10000).fadeOut(0);  
+      });    
+    </script>
+</head>
 
 <STYLE>A {text-decoration: none;} </STYLE>
 
 	<body>
+
+        <div id="loader">
+            <img src="https://media.giphy.com/media/dxC4ty8YNqX1KITtHp/source.gif" alt="loading..." />
+        </div>
 
 		<a href="https://www.instagram.com/neuropicturesone">
          <img src="https://media.giphy.com/media/lTXw1jcQ1AEGgaLaI4/source.gif"/>
