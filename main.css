@@ -27,6 +27,10 @@ p {
 	padding: 0px 30px;
 }
 
+#des {
+	font-size: 125%;
+}
+
 #email {
 	z-index: 98;
 }
@@ -43,8 +47,4 @@ p {
 #about {
 	width: 54%;
 	height: auto;
-}
-
-#des {
-	font-size: 125%;
 }
