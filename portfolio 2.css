@@ -58,3 +58,64 @@ p {
 h1 {
 	color: #dccbd5;
 }
+
+.description {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: left;
+	font-size: 12px;
+	float: left;
+	padding-left: 10px;
+}
+
+.poster {
+	text-align: left;
+	width: 10%;
+	height: 10%;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding: 25px 0 25px 0;
+}
+
+.psychosis {
+	width: 25%;
+	height: auto;
+}
+
+.video {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	padding: 10px 35px 10px 35px;
+}
+
+.box {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding: 0 35px 0 35px;
+}
+
+.psychosisbox {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding: 0 35px 0 35px;
+}
+
+.psychosiscontainer {
+	position: relative;
+	display: flex;
+	justify-content: left;
+	align-items: flex-start;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding: 25px 0 25px 0;
+}
