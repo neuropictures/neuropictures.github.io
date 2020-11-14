@@ -106,7 +106,7 @@ a {
 #img_cont {
   display: table;
   width: 100%;
-  margin: auto;
+  margin: 10%;
 }
 
 #img_cont a {
@@ -117,5 +117,5 @@ a {
 
 #img_cont img {
   width: 200%;
-  max-width: 275px;
+  max-width: 450px;
 }
