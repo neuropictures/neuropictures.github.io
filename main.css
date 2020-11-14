@@ -19,6 +19,7 @@ body {
 .nav > li {
 	display: inline-block;
 	padding: 0 15px 0 15px;
+	position: fixed;
 }
 
 .nav >li > a {
