@@ -119,3 +119,7 @@ a {
   width: 200%;
   max-width: 450px;
 }
+
+.scrollbar {
+	width: 100%;
+}
