@@ -106,23 +106,6 @@ a {
 	color: #ffffff;
 }
 
-#img_cont {
-  display: table;
-  width: 100%;
-  margin: ;
-}
-
-#img_cont a {
-  display: table-cell;
-  text-align: center;
-  width: 10%;
-}
-
-#img_cont img {
-  width: 200%;
-  max-width: 450px;
-}
-
 .scrollbar {
 	width: 100%;
 	z-index: 1;
@@ -143,6 +126,7 @@ a {
 .container {
   position: relative;
   width: 50%;
+  background-color:black;
 }
 
 .image {
@@ -152,7 +136,6 @@ a {
   height: auto;
   transition: .2s ease;
   backface-visibility: hidden;
-  background-color:black;
 }
 
 .middle {
@@ -183,5 +166,7 @@ a {
 .row {
 	width:100%;
 	height:auto;
+	
 	display:flex;
+	padding: 0 0 20px 0;
 } 
