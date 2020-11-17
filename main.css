@@ -152,6 +152,7 @@ a {
   height: auto;
   transition: .2s ease;
   backface-visibility: hidden;
+  background-color:black;
 }
 
 .middle {
@@ -182,6 +183,5 @@ a {
 .row {
 	width:100%;
 	height:auto;
-	background-color:black;
 	display:flex;
 } 
