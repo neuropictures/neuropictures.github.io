@@ -167,7 +167,7 @@ a {
   font-weight: bold;
 }
 
-.text > a:hover {
+.text > p:hover {
 	color: #00ff06;
 }
 
