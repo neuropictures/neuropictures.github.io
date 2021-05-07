@@ -1,183 +1,117 @@
-<!doctype html>
 <html>
-	<head>
-		<title>Neuro Pictures</title>
-		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
-		<link rel="stylesheet" type="text/css" href="main.css">
-		<audio autoplay>
-      			<source src="neuroleptik.ogg">
-  		</audio>
-		<audio autoplay loop>
-      			<source src="Flashback.wav">
-  		</audio>
-	</head>
 
-	<STYLE>A {text-decoration: none;} </STYLE>
-	
+<head>
+	<title>Neuroleptik</title>
 	<style>
 		body {
-  			background-image: url('backgroundgif.gif');
-  			background-repeat: no-repeat;
-  			background-attachment: fixed;  
-  			background-size: cover;
+			background: black;
+			color: white;
+			font-family: "Arial Bold", sans-serif;
 		}
-	</style>
 
+	<style type="text/css">
+		.alignleft {
+   			 float: left;
+   			 margin-left: 2%;
+   			 margin-top: 1%;
+   			 margin-bottom: 2%;
+		}
+		.alignright {
+    		float: right;
+    		margin-top: 2.5%;
+    		margin-right: 2%;
+		}
+		#menu {
+			margin-top: 0.5%;
+			font-size:12px;
+			color: #2a9df4;
+			line-height: 1.5em;
+		}
+		b:hover {
+  			color: white;
+		}
+		.home {
+			height: 100%;
+			display: flex;
+  			justify-content: center;
+  			align-items: center;
+		}
+		#overlay {
+  			position: fixed;
+  			width: 100%;
+  			height: 100%;
+  			top: 0;
+  			left: 0;
+  			right: 0;
+  			bottom: 0;
+  			background-color: rgba(0,0,0,0.75);
+  			z-index: 2;
+  			cursor: pointer;
+		}
+		#text{
+  			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			font-size: 30px;
+  			color: white;
+  			transform: translate(-50%,-50%);
+  			-ms-transform: translate(-50%,-50%);
+			font-family: "Arial Black", sans-serif;
+		}
+		.scrollbar {
+			width: 100%;
+			z-index: 1;
+			position: sticky;
+			bottom: 0;
+		}
+
+		.banner {
+			background-color: #000000;
+			color: #ffffff;
+			list-style: none;
+			text-align: center;
+			font-size: 25px;
+			font-weight: bold;
+			padding: 20px 0 20px 0;
+			padding-right: 0px;
+			z-index: 1;
+		}
+		a {
+			color: white;
+    		text-decoration: none;
+		}
+		a:hover {
+			color: #00ff06;
+			text-decoration:none; 
+    		cursor:pointer;  
+		}
+		h3 {
+			display: flex;
+  			justify-content: center;
+  			align-items: center;
+		}
+		@font-face { font-family: MIB; src: url('MIB 2.TTF'); } 
+		h2 {
+         font-family: MIB
+      }
+	</style>
+</head>
+<STYLE>A {text-decoration: none;} </STYLE>
 <body>
-	<audio autoplay="">
-      			<source src="neuroleptik.ogg">
-  		</audio>
-		<audio autoplay="" loop="">
-      			<source src="Flashback.wav">
-  		</audio>
-	
-
-	<style>A {text-decoration: none;} </style>
-	
-	<style>
-		body {
-  			background-image: url('backgroundgif.gif');
-  			background-repeat: no-repeat;
-  			background-attachment: fixed;  
-  			background-size: cover;
-		}
-	</style>
-
-
-	
-		<ul class="nav">
-
-			<div class="logo">
-				<a href="www.instagram.com/neuropicturesone"></a>NEURO PICTURES
-			</div>
-
-			<li><a href="#">PROJECTS</a></li>
-			<li><a href="directors.html">DIRECTORS</a></li>
-			<li><a href="mailto:neuropicturesmgmt@gmail.com">CONTACT</a></li>
-		</ul>
-    
-<div class="row">	
-    	<div class="container">
-  <img src="pastduegif.gif" class="image" style="width:100%">
-  	<div class="middle">
-    	<div class="text">
-      	<p>PAST DUE</p>
-        <p>12.05.20</p>
-      	</div>
-  	</div>
-	</div>
-	
-	<div class="container">
-  <img src="withlovegif.gif" class="image" style="width:100%">
-  	<div class="middle">
-    	<div class="text">
-      	<p>
-      	<a href="withlove.html">WITH LOVE</a><br><br>
-        <a href="withlove.html">11.21.20</a>
-	</p>
-	</div>
-  	</div>
-	</div>
-	
-	<div class="container">
-  <img src="woutahomegif.gif" class="image" style="width:100%">
-  	<div class="middle">
-    	<div class="text">
-	<p>
-      	<a href="woutahome.html">WITHOUT A HOME</a><br><br>
-        <a href="woutahome.html">11.20.20</a>
-	</p>
-    	</div>
-  	</div>
+	<div class="home">
+		<h2><b>Neuro Pictures, LLC.</b></h2>
+		<br>
+		<br>
+		<h3><a href="about.html">about</a></h3><br>
+		<h3><a href="projects.html">projects</a></h3><br>
+		<h3><a href="directors.hmtl">directors</a></h3><br>
+		<h3><a href="mailto:neuropicturesmgmt@gmail.com">contact</a></h3>
 	</div>
 
-</div>
-    
-<div class="row">
-    	<div class="container">
-  <img src="withdrawalgif.gif" class="image" style="width:100%">
-  	<div class="middle">
-    	<div class="text">
-	<p>
-      	<a href="withdrawal.html">WITHDRAWAL</a><br><br>
-        <a href="withdrawal.html">11.01.20</a>
-	</p>
-      	</div>
-  	</div>
-	</div>
-    
-    	<div class="container">
-  <img src="hitmangif.gif" class="image" style="width:100%">
-  	<div class="middle">
-    	<div class="text">
-      	<p>HITMAN</p>
-        <p>11.05.20</p>
-      	</div>
-  	</div>
-	</div>
-	        
-	<div class="container">
-  <img src="paulsolvesgif.gif" class="image" style="width:100%">
-  	<div class="middle">
-    	<div class="text">
-	<p>
-      	<a href="paulsolves.html">PAUL SOLVES</a><br><br>
-        <a href="paulsolves.html">06.19.20</a>
-	</p>
-    	</div>
-  	</div>
-	</div>  
-</div>
-    
-<div class="row">
-    	<div class="container">
-  <img src="warmfeelinggif.gif" class="image" style="width:100%">
-  	<div class="middle">
-    	<div class="text">
-	<p>
-      	<a href="warmfeeling.html">WARM FEELING</a><br><br>
-        <a href="warmfeeling.html">08.17.20</a>
-	</p>
-      	</div>
-  	</div>
-	</div>
-    
-    	<div class="container">
-  <img src="forsalegif.gif" class="image" style="width:100%">
-  	<div class="middle">
-    	<div class="text">
-      	<p>
-      	<p>PALEKAIKO</p>
-        <p>COMING SOON</p>
-	</p>
-      	</div>
-  	</div>
-	</div>
-    
-	<div class="container">
-  <img src="cascadegif.gif" class="image" style="width:100%">
-  	<div class="middle">
-    	<div class="text">
-      	<p>CASCADE</p>
-        <p>COMING SOON</p>
-    	</div>
-  	</div>
-	</div>
-</div>
-   
-	
 	<div class="scrollbar">
-	<ul class="banner">
-			<marquee>KINO: PAUL SOLVES, WARM FEELING, HITMAN, WITHOUT A HOME, WITH LOVE, PAST DUE, WITHDRAWAL... SOON: FOR SALE, CASCADE, PSYCHOSIS...</marquee>
+		<ul class="banner">
+			<marquee>KINO: HITMAN, WITHDRAWAL, WITH LOVE, WITHOUT A HOME, PAST DUE, ABRAHAM, PALEKAIKO... SOON: PSYCHOSIS, HAUPIA, FEMME NUE, WISEMAN...</marquee>
 		</ul>
 	</div>
-		
-	<div align="center" style="text-align: center">
-		<p align="center">
-       
-   		 </p>
-	</div>
-
-
 </body>
 </html>
