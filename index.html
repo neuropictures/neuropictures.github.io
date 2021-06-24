@@ -4,114 +4,82 @@
 	<title>Neuroleptik</title>
 	<style>
 		body {
-			background: black;
+			background-image: url("https://www.dropbox.com/s/l4z2iy5g4ft048f/neuroreel169.gif?raw=1");
+    		background-size: 100%;
+    		background-repeat: repeat-y;
+    		background-attachment: fixed;
+    		height: 100%;
+    		width: 100%;
 			color: white;
-			font-family: "Arial Bold", sans-serif;
 		}
 
 	<style type="text/css">
-		.alignleft {
-   			 float: left;
-   			 margin-left: 2%;
-   			 margin-top: 1%;
-   			 margin-bottom: 2%;
-		}
-		.alignright {
-    		float: right;
-    		margin-top: 2.5%;
-    		margin-right: 2%;
-		}
 		#menu {
 			margin-top: 0.5%;
 			font-size:12px;
 			color: #2a9df4;
 			line-height: 1.5em;
 		}
-		b:hover {
-  			color: white;
-		}
 		.home {
-			height: 100%;
+			height: 90%;
 			display: flex;
   			justify-content: center;
   			align-items: center;
-		}
-		#overlay {
-  			position: fixed;
-  			width: 100%;
-  			height: 100%;
-  			top: 0;
-  			left: 0;
-  			right: 0;
-  			bottom: 0;
-  			background-color: rgba(0,0,0,0.75);
-  			z-index: 2;
-  			cursor: pointer;
-		}
-		#text{
-  			position: absolute;
-  			top: 50%;
-  			left: 50%;
-  			font-size: 30px;
-  			color: white;
-  			transform: translate(-50%,-50%);
-  			-ms-transform: translate(-50%,-50%);
-			font-family: "Arial Black", sans-serif;
-		}
-		.scrollbar {
-			width: 100%;
-			z-index: 1;
-			position: sticky;
-			bottom: 0;
-		}
-
-		.banner {
-			background-color: #000000;
-			color: #ffffff;
-			list-style: none;
-			text-align: center;
-			font-size: 25px;
-			font-weight: bold;
-			padding: 20px 0 20px 0;
-			padding-right: 0px;
-			z-index: 1;
 		}
 		a {
 			color: white;
     		text-decoration: none;
 		}
-		a:hover {
-			color: #00ff06;
+		ul{
+			text-align: center;
+		}
+		li{
+			font-family: Garamond, serif;
+			font-size: 40px;
+			margin: 5px 0px;
+			letter-spacing: 1px;
+		}
+		li:hover {
 			text-decoration:none; 
-    		cursor:pointer;  
+    		cursor:pointer;
+    		font-style: italic;  
 		}
-		h3 {
-			display: flex;
-  			justify-content: center;
-  			align-items: center;
+		#neuro {
+    		position: fixed;
+    		z-index: -10;
+    		bottom: 0px;
+    		width: 100%;
+    		text-align: center;
+    		margin: -35px 0px;
+    		right: 0.25%;
 		}
-		@font-face { font-family: MIB; src: url('MIB 2.TTF'); } 
-		h2 {
-         font-family: MIB
-      }
+		#location {
+    		position: fixed;
+    		float: left;
+    		bottom: 16%;
+    		width: 100%;
+		}
 	</style>
 </head>
 <STYLE>A {text-decoration: none;} </STYLE>
 <body>
 	<div class="home">
-		<h2><b>Neuro Pictures, LLC.</b></h2>
-		<br>
-		<br>
-		<h3><a href="about.html">about</a></h3><br>
-		<h3><a href="projects.html">projects</a></h3><br>
-		<h3><a href="directors.hmtl">directors</a></h3><br>
-		<h3><a href="mailto:neuropicturesmgmt@gmail.com">contact</a></h3>
-	</div>
-
-	<div class="scrollbar">
-		<ul class="banner">
-			<marquee>KINO: HITMAN, WITHDRAWAL, WITH LOVE, WITHOUT A HOME, PAST DUE, ABRAHAM, PALEKAIKO... SOON: PSYCHOSIS, HAUPIA, FEMME NUE, WISEMAN...</marquee>
+		<ul style="list-style-type:none;">
+		<li href="alex.html">Alex Ching</li>
+		<li href="devan.html">Devan Fujinaka</li>
+		<li href="kurt.hmtl">Kurt Hoffmann</li>
+		<li href="cody.html">Cody Horne</li>
 		</ul>
 	</div>
+
+	<div id="location">
+		<a style="font-family: Garamond, serif; font-size: 25px; font-style: italic;">Honolulu, HI (USA)</a>
+		<a href="mailto:contact@neuroleptik.tv" style="font-family: Garamond, serif; font-size: 25px; font-style: italic;"> contact@neuroleptik.tv</a>
+	</div>
+
+	<div id="neuro">
+		<full-width-text style="font-family: 'Arial Black'; font-size: 145px;">NEUROPICTURES</full-width-text>
+	</div>
+
 </body>
 </html>
